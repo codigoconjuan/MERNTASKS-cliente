@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 const NuevaCuenta = () => {
+
 
     // State para iniciar sesión
     const [usuario, guardarUsuario] = useState({
@@ -40,6 +41,7 @@ const NuevaCuenta = () => {
 
     return ( 
         <div className="form-usuario">
+     
             <div className="contenedor-form sombra-dark">
                 <h1>Obtener una cuenta</h1>
 
